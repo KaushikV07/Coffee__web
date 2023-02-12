@@ -1,0 +1,74 @@
+.review{
+    padding: 60px 0;margin: 0;
+}
+
+.review h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.review span{
+    color: #d3ad7f;
+}
+
+.review__row{
+    display: flex;
+    gap: 10px;
+}
+
+.review__col{
+    width: 33.33%;
+    
+}
+
+.review__box{
+    border: 2px solid #4e4e4f;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review__box .quote__img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.review__box .quote__img img{
+    width: 100%;
+}
+
+.review__box p{
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.review__face{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.review__face img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.review__name h2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.review__stars .MuiSvgIcon-root{
+    color: #d3ad7f;
+}

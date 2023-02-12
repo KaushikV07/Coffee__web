@@ -1,0 +1,44 @@
+header{
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid white;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 85px;
+    height: 85px;
+}
+
+.logo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navbar > a {
+    padding: 0;margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s;
+    background-color: transparent;
+}
+
+.navbar > a:hover,
+.icons__nav > .MuiSvgIcon-root:hover{
+    color: #d3ad7f;
+}
+
+.icons__nav > .MuiSvgIcon-root{
+    color: white;
+    margin: 0 10px;
+    font-size: 30px;
+}

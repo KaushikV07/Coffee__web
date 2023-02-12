@@ -1,0 +1,70 @@
+.contact{
+    padding: 60px 0;
+    margin: 0;
+}
+
+.contact h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact span{
+    color: #d3ad7f;
+}
+
+.contact__row{
+    display: flex;
+}
+
+.contact__col{
+    width: 50%;
+}
+
+.contact__col .maps{
+    width: 590px;
+    height: 500px;
+}
+
+.contact__col .maps img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact__form{
+    background-color: #13131a;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__form h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contact__form .input{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-bottom: 40px;
+}
+.contact__form .input input{
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+.contact__form .input input::placeholder{
+    font-size: 15px;
+}

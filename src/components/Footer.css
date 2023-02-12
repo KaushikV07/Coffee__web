@@ -1,0 +1,45 @@
+.footer{
+    padding: 0;margin:60px 0 0 0;
+    background-color: #13131a;
+    text-align: center;
+    height: 200px;
+}
+
+.footer__icons .MuiSvgIcon-root{
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 35px;
+    padding: 5px;
+    margin: 40px 10px;
+}
+
+.footer__icons .MuiSvgIcon-root:hover{
+    color: #d3ad7f;
+}
+
+.footer__nav a{
+    color: white;
+    border: 1px solid white;
+    margin: 0 10px ;
+    padding: 10px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footer__nav a:hover{
+    background-color: #d3ad7f;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.footer p a{
+    color: #d3ad7f;
+    font-size: 20px;
+    text-decoration: none;
+}
